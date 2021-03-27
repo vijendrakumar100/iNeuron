@@ -1,0 +1,119 @@
+Q1. What are the two values of the Boolean data type? How do you write them?
+Ans> The two values of the Boolean data type are True and False
+
+Q2. What are the three different types of Boolean operators?
+Ans> The three different types of Boolean operators are: and, or , not
+
+Q3. Make a list of each Boolean operator's truth tables (i.e. every possible combination of Boolean values for the operator and what it evaluate ).
+Ans> Truth table for AND operator:
+      |   A   |   B   |  A and B |
+      | True  |  True |   True   |
+      | True  | False |   False  |
+      | False |  True |   False  |
+      | False | False |   False  |
+      
+     Truth table for OR operator:
+      |   A   |   B   |  A or B  |
+      | True  |  True |   True   |
+      | True  | False |   True   |
+      | False |  True |   True   |
+      | False | False |   False  |
+
+Truth table for NOT operator:
+      |   A   |  not(A) |
+      | True  |   False |
+      | False |   True  |
+      
+Q4. What are the values of the following expressions?
+(5 > 4) and (3 == 5)                  --> False
+not (5 > 4)                           --> False
+(5 > 4) or (3 == 5)                   --> True
+not ((5 > 4) or (3 == 5))             --> False
+(True and True) and (True == False)   --> False
+(not False) or (not True)             --> True
+
+Q5. What are the six comparison operators?
+Ans> a) Greater than (>)
+     b) Less than (<)
+     c) Equal to (==)
+     d) Greater than or equal to (>=)
+     e) Less than or equal to (<=)
+     f) Not equal to (!=)
+        
+Q6. How do you tell the difference between the equal to and assignment operators? Describe a condition and when you would use one.
+Ans> In python, '==' is used as equal to operator and '=' is used as assignment operator. 
+Equal to operator is used to evaluate the conditions whether 2 parameters (values/ variables/ lists etc.) are euqal or not and assignment operator is used to assign a value to a variable.
+Eg. - 5 == 4 is used to evaluate the condition whether 5 is equal to 4 whereas a = 5 assigns the integer value of 5 to the variable 'a'.
+
+Q7. Identify the three blocks in this code:
+spam = 0
+if spam == 10:
+print('eggs')
+if spam > 5:
+print('bacon')
+else:
+print('ham')
+print('spam')
+print('spam')
+Ans>
+spam = 0
+if spam == 10:
+  print('eggs') #block1
+if spam > 5:
+  print('bacon') #block2
+else:
+  print('ham') #block3
+  print('spam') #block3
+  print('spam') #block3
+
+Q8. Write code that prints Hello if 1 is stored in spam, prints Howdy if 2 is stored in spam, and prints Greetings! if anything else is stored in spam.
+user_input = int(input('Enter a number: '))
+if user_input == 1:
+  print('Hello')
+elif user_input ==2:
+  print('Howdy')
+else:
+  print('Greetings!')
+
+Q9. If your programme is stuck in an endless loop, what keys you’ll press?
+Ans> CTRL + C
+
+Q10. How can you tell the difference between break and continue?
+Ans> A break statement helps us come out of a loop whereas a continue statement skips some iterations of a loop based on any condition. Eg. -
+for i in range(10):
+  if i == 5:
+    break
+  else:
+    print(i) #prints values 0,1,2,3,4 and exits the for loop at i = 5
+
+for i in range(10):
+  if i == 5:
+    continue
+  else:
+    print(i) #prints values 0 to 9 but skips value of 5 at i = 5
+
+Q11. In a for loop, what is the difference between range(10), range(0, 10), and range(0, 10, 1)?
+There is no difference between the three. All of them will run a loop 10 times, from i = 0 to i = 9 (i = 0,1,2,3,4,5,6,7,8,9)
+
+Q12. Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+Ans>
+#using for loop
+for i in range(1,11):
+  print(i)
+
+#using while loop
+i = 1
+while i < 11:
+  print(i)
+  i+=1
+
+Q13. If you had a function named bacon() inside a module named spam, how would you call it after importing spam?
+Ans> By using dot notation
+import spam
+spam.bacon()
+
+
+
+
+
+
