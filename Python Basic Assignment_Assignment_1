@@ -1,0 +1,44 @@
+Q1. In the below elements which of them are values or an expression? eg:- values can be integer or string and expressions will be mathematical operators.
+*        --> Expression
+'hello'  --> Value
+-87.8    --> Value
+-        --> Expression
+/        --> Expression
++	       --> Expression
+6        --> Value
+
+Q2. What is the difference between string and variable?
+Ans> String is a text information, usually contained within double quotes or single quotes in Python. Eg. - 'a', 'hello world', 'i love python'.
+A variable stores an information and it can be of any data type like integer, floating point, string, complex etc. Eg. - a=10, b=2.1, c='hello', d=2+3j, e=False etc.
+
+Q3. Describe three different data types.
+Ans> Three different data types are:
+a) int - used for integers. Eg. - 2,3,-10 etc.
+b) float - used for floating point numbers. Eg. - 2.1, 3.2, -9.1 etc.
+c) string - used for text information. Eg. - 'a', 'python', 'hello world'
+
+Q4. What is an expression made up of? What do all expressions do?
+Ans> A sequence of operands and operators is called an expression. We combine data objects with operators to form expressions. Eg. - a + b - 5, a * b etc.
+
+Q5. This assignment statements, like spam = 10. What is the difference between an expression and a statement?
+Ans> Statements represent an action or command. Eg. print statements -> print('Hello World'), assignment statements -> spam = 10
+Expression is a combination of variables, operations and values that yields a result value. Eg. - 5 * 5, a + b
+
+Q7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans> 'spamspamspam'
+'spamspamspam'
+
+Q8. Why is eggs a valid variable name while 100 is invalid?
+Ans> Python doesn't allow a variable name to start with a digit thus 100 is an invalid variable name
+
+Q9. What three functions can be used to get the integer, floating-point number, or string version of a value?
+Ans> int(), float(), str() functions can be used to get integer, floating-point number and string version of a value
+
+Q10. Why does this expression cause an error? How can you fix it?
+'I have eaten ' + 99 + ' burritos.'
+Ans> The above expression causes an error because we cannot concatenate an integer value with a string. It can be fixed by type casting 99 to string.
+'I have eaten ' + str(99) + ' burritos.'
+-OR-
+'I have eaten ' + '99' + ' burritos.'
