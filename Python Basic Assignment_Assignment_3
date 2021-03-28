@@ -1,0 +1,42 @@
+Q1. Why are functions advantageous to have in your programs?
+Ans> Functions are advantegous because they make the code reusable, they reduce duplication of code, they make the program more readable and modular.
+
+Q2. When does the code in a function run: when it's specified or when it's called?
+Ans> The code in a function runs when it is called
+
+Q3. What statement creates a function?
+Ans> The "def" statement
+
+Q4. What is the difference between a function and a function call?
+Ans> A function contains a set of operations but they are not exacuted untill the funcation is being called later on, through the function call
+
+Q5. How many global scopes are there in a Python program? How many local scopes?
+Ans>There is 1 global scope in a Python program. There are unlimited local scopes
+
+Q6. What happens to variables in a local scope when the function call returns?
+Ans> The variables in a local scope are not recognized once the function call returns. If we try to use variables in a local scope after the function call returns, we will get an error that the variables are not defined
+
+Q7. What is the concept of a return value? Is it possible to have a return value in an expression?
+Ans> Return value helps a function to return values after completing the operations it was defined for. Yes, we can have a return value in an expression
+
+Q8. If a function does not have a return statement, what is the return value of a call to that function?
+Ans> None
+
+Q9. How do you make a function variable refer to the global variable?
+Ans> By using the "global" keyword
+
+Q10. What is the data type of None?
+Ans> NoneType
+
+Q11. What does the sentence import areallyourpetsnamederic do?
+Ans> It throws up an error that there is no module named 'areallyourpetsnamederic'
+
+Q12. If you had a bacon() feature in a spam module, how would you call it after importing spam?
+Ans> spam.bacon()
+
+Q13. What can you do to save a programme from crashing if it encounters an error?
+Ans> We can use exception handling by employing try and except blocks
+
+Q14. What is the purpose of the try clause? What is the purpose of the except clause?
+Ans> In the try clause, all statements are executed until an exception is encountered. 
+Except clause is used to catch and handle the exception(s) that are encountered in the try clause.
