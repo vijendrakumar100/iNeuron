@@ -49,8 +49,9 @@ Ans> Let's say a = [1,2,3] is a list. To get the tuple form of this list, we do 
 Let's say a = (1,2,3) is a tuple. To get the list form of this tuple, we do b = list(a) 
 
 16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
-Ans> 
+Ans> They contain name for list values
 
 17. How do you distinguish between copy.copy() and copy.deepcopy()?
-Ans>
+Ans> In case of shallow copy, a reference of object is copied in other object. It means that any changes made to a copy of object do reflect in the original object.
+In case of deep copy, a copy of object is copied in other object. It means that any changes made to a copy of object do not reflect in the original object.
 
