@@ -42,13 +42,14 @@ c) We can slice the elements of a list using [] and mentioning the index positio
 Ans> Tuples are immutable whereas lists are mutable
 
 14. How do you type a tuple value that only contains the integer 42?
-Ans> (42)
+Ans> (42,)
 
 15. How do you get a list value's tuple form? How do you get a tuple value's list form?
-Ans>
+Ans> Let's say a = [1,2,3] is a list. To get the tuple form of this list, we do b = tuple(a)
+Let's say a = (1,2,3) is a tuple. To get the list form of this tuple, we do b = list(a) 
 
 16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
-Ans>
+Ans> 
 
 17. How do you distinguish between copy.copy() and copy.deepcopy()?
 Ans>
