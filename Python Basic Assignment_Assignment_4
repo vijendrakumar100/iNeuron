@@ -22,25 +22,27 @@ Ans> 1
 Ans> It will append another element to the list bacon --> [3.14, 'cat,' 11, 'cat,' True, 99]
 
 8. How does bacon.remove('cat') change the look of the list in bacon?
-Ans> It will remove the 2 elements 'cat' from the list bacon --> [3.14, 11, True]
+Ans> It will remove the the first occurance of the element 'cat' from the list bacon --> [3.14, 11, 'cat', True]
 
 9. What are the list concatenation and list replication operators?
-Ans>
+Ans> + is the list concatenation operator and * is the list replication operator
 
 10. What is difference between the list methods append() and insert()?
-Ans>
+Ans> append() adds an element at the end of a list while insert() allows us to add an element at any desired index position of a list
 
 11. What are the two methods for removing items from a list?
-Ans>
+Ans> We can remove items from a list using remove() and pop() methods
 
 12. Describe how list values and string values are identical.
-Ans>
+Ans> a) We can concatenate two or more lists using the + operator, similar to string values
+b) We can replicate a list using the * operator, similar to string values
+c) We can slice the elements of a list using [] and mentioning the index position, similar to string values
 
 13. What's the difference between tuples and lists?
-Ans>
+Ans> Tuples are immutable whereas lists are mutable
 
 14. How do you type a tuple value that only contains the integer 42?
-Ans>
+Ans> (42)
 
 15. How do you get a list value's tuple form? How do you get a tuple value's list form?
 Ans>
