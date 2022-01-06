@@ -1,0 +1,19 @@
+1) What is the difference between enclosing a list comprehension in square brackets and parentheses?
+Enclosing a list comprehension in square brackets gives a list while enclosing a list comprehension in parentheses gives a generator expression.
+
+2) What is the relationship between generators and iterators?
+A python generator is an iterator
+
+3) What are the signs that a function is a generator function?
+If a function contains at least one yield statement, it is a generator function
+
+4) What is the purpose of a yield statement?
+yield statement can be used like the return statement in a function. When done so, the function instead of returning the output, returns a generator 
+that can be iterated upon.
+
+5) What is the relationship between map calls and list comprehensions? Make a comparison and contrast between the two.
+- List comprehension is more concise and easier to read as compared to map
+- List comprehension allows filtering. In map, we have no such facility
+- List comprehension are used when a list of results is required as map only returns a map object and does not return any list
+- List comprehension is faster than map when we need to evaluate expressions that are too long or complicated to express
+- Map is faster in case of calling an already defined function
