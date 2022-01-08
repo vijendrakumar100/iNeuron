@@ -1,0 +1,11 @@
+1. What is the relationship between def statements and lambda expressions ?
+As an expression, lambda returns a value that can optionally be assigned a name. 
+In contrast, the def statement always assigns the new function to the name in the header, instead of returning is as a result. 
+lambda's body is a single expression, not a block of statements
+
+2. What is the benefit of lambda?
+3. Compare and contrast map, filter, and reduce.
+4. What are function annotations, and how are they used?
+5. What are recursive functions, and how are they used?
+6. What are some general design guidelines for coding functions?
+7. Name three or more ways that functions can communicate results to a caller.
